@@ -20,8 +20,19 @@
     PowerShell Ver. : 
 
 .USAGE
-    PS C:\> .\Check-LockoutDuration-WN10-AU-000500.ps1
-    Run this script in PowerShell (preferably as Administrator). No parameters are needed
+    Run this script in PowerShell (preferably as Administrator). No parameters are needed.
+
+    Example:
+    PS C:\> .\Check-LockoutDuration-WN10-AC-000005.ps1
+
+    What it does:
+    - Exports the current local security policy.
+    - Checks the value of "Account lockout duration".
+    - Compares it to the STIG requirement (WN10-AC-000005):
+        * If the duration is less than 15 minutes and not 0 → this is a finding.
+        * If it is 0 (manual admin unlock) → not a finding.
+        * If it is 15 or more → not a finding.
+    - Outputs the result to the screen.
 #>
 
 # Define the registry path
