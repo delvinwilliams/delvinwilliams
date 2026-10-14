@@ -1,3 +1,4 @@
+
 # Delvin Williams | Cybersecurity & SOC Analyst Portfolio 🔐
 
 **CompTIA Security+ | A.A.S. Cybersecurity | Security Operations | Threat Detection & Incident Response**
@@ -73,6 +74,60 @@ Conducted a threat hunting investigation to identify suspicious TOR browser acti
 
 ---
 
+### 🔬 4. Blue Team Investigations – BTL1 Hands-On Training
+
+**Tools:** Splunk, Wireshark, Autopsy, Volatility, MISP, Windows Event Logs
+
+📂 [View Blue Team Investigations](https://github.com/delvinwilliams/blue-team-investigations)
+
+Completed hands-on cybersecurity investigations through Blue Team Level 1 (BTL1) training, focusing on identifying suspicious activity, analyzing digital evidence, and understanding incident response procedures.
+
+These exercises strengthened my practical skills in investigating potential security incidents and documenting findings.
+
+**Key Highlights:**
+
+**📧 Phishing Analysis**
+- Examined suspicious emails for phishing indicators.
+- Analyzed email headers, URLs, and attachments.
+- Investigated potentially malicious artifacts.
+- Practiced documenting phishing investigation findings.
+
+**📊 SIEM & Log Analysis**
+- Used Splunk to investigate security events.
+- Searched and filtered logs for suspicious activity.
+- Reviewed timestamps and correlated related events.
+- Practiced identifying indicators requiring further investigation.
+
+**💻 Digital Forensics**
+- Examined Windows artifacts, including Prefetch files, Jump Lists, and browser history.
+- Used Autopsy to examine digital evidence.
+- Investigated file activity and system artifacts.
+- Practiced reconstructing events from forensic evidence.
+
+**🧠 Memory Analysis**
+- Used Volatility 2 and Volatility 3 to analyze memory images.
+- Examined running processes and process relationships.
+- Investigated suspicious process activity.
+- Reviewed memory artifacts relevant to security investigations.
+
+**🌐 Threat Intelligence**
+- Used MISP to research known cyber threats.
+- Investigated indicators of compromise (IOCs).
+- Reviewed threat intelligence reports.
+- Studied threat actors, malicious domains, and YARA rules.
+
+**What I Learned:**
+
+BTL1 training helped me develop a more structured approach to security investigations. I gained experience using different tools to review evidence, identify suspicious activity, and document findings.
+
+The training also reinforced the importance of investigating alerts carefully before reaching conclusions.
+
+**Training Status:** All BTL1 hands-on labs completed; preparing for the certification exam.
+
+*This project portfolio focuses on my own descriptions of the skills and investigation methods practiced during training. Proprietary lab materials and exam content are not included.*
+
+---
+
 ## 💻 Technical Skills
 
 **Security Operations & Incident Response**
@@ -89,7 +144,7 @@ Conducted a threat hunting investigation to identify suspicious TOR browser acti
 - Tenable
 - Wireshark
 - Autopsy
-- Volatility
+- Volatility 2 & 3
 - MISP
 
 **Systems & Technical Skills**
@@ -99,6 +154,8 @@ Conducted a threat hunting investigation to identify suspicious TOR browser acti
 - Basic PowerShell Scripting
 - Vulnerability Scanning and Remediation
 - Digital Forensics
+- Windows Event Log Analysis
+- Network Traffic Analysis
 
 ---
 
@@ -135,4 +192,3 @@ I'm always interested in connecting with cybersecurity professionals, recruiters
 ---
 
 *Thank you for visiting my portfolio and taking the time to explore my work!*
-
